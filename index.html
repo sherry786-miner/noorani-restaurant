@@ -312,7 +312,12 @@ section{padding:120px 6%;}
 
 .chit:hover{transform:translateY(-6px) rotate(-.4deg);}
 
-.chit-photo{height:190px;overflow:hidden;}
+.chit-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 .chit-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(1.05);}
 
